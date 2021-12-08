@@ -11,7 +11,7 @@ public class DragObject : ObjectsTransformBase
     private float rate = 0.05f;
     private float elp = 0;
     private Vector2 lastPos;
-    private float longPressDuration = 1.54f;
+    private float longPressDuration = 0.8f;
     public UnityEvent<bool> onLongTap;
     protected override void AddListener()
     {
