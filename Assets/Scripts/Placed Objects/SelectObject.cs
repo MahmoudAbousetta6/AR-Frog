@@ -40,7 +40,7 @@ public class SelectObject : ObjectsTransformBase
             {
                 isSelected = true;
                 audioSource.Play();
-                animator.SetTrigger("Run");
+                animator.SetTrigger("Attack");
                 outline.enabled = true;
             }
            

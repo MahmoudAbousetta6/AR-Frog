@@ -216,7 +216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arCamera: {fileID: 1338878900}
   ObjectsToPlace:
-  - {fileID: 2933126532545402173, guid: 0860518517fb4e7468748ffba3cfb6d0, type: 3}
+  - {fileID: 8379768153224237152, guid: 56fb024da42f9344c99a1ab0b28c18d1, type: 3}
 --- !u!114 &1233516594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RaycastPrefab: {fileID: 1233516592}
+  m_RaycastPrefab: {fileID: 0}
 --- !u!114 &1233516595
 MonoBehaviour:
   m_ObjectHideFlags: 0

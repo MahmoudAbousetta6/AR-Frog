@@ -15,11 +15,11 @@ D:/Abousetta/Work/Wiki Experience/AR-Frog
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62698
+63272
 Successfully changed project path to: D:/Abousetta/Work/Wiki Experience/AR-Frog
 D:/Abousetta/Work/Wiki Experience/AR-Frog
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 62.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -36,186 +36,333 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001769 seconds.
+Registered in 0.001842 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 64.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.350 seconds
+- Completed reload, in  2.873 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003865 seconds.
+Registered in 0.003839 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 57.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 63.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.459 seconds
+- Completed reload, in  2.359 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.2 MB.
-System memory in use after: 150.4 MB.
+Unloading 3681 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.1 MB.
+System memory in use after: 157.2 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3895.
-Total: 2.951500 ms (FindLiveObjects: 0.347300 ms CreateObjectMapping: 0.181500 ms MarkObjects: 2.353200 ms  DeleteObjects: 0.068000 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/Touch System
-  artifactKey: Guid(3d459bef8d5653840b252af4b9b48ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Touch System using Guid(3d459bef8d5653840b252af4b9b48ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3cb3e1dd93486db4cddac24b64a025c') in 0.010511 seconds
-  Import took 0.015566 seconds .
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 4116.
+Total: 4.092100 ms (FindLiveObjects: 0.335800 ms CreateObjectMapping: 0.375400 ms MarkObjects: 3.291000 ms  DeleteObjects: 0.088700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Scripts/Touch System/Touch Controls.inputactions
-  artifactKey: Guid(957a9e8acb98b0449b4f517fad86b54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Touch System/Touch Controls.inputactions using Guid(957a9e8acb98b0449b4f517fad86b54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4033450b519c76a85b1c5a869fba511e') in 0.050867 seconds
-  Import took 0.055529 seconds .
+  path: Assets/Character/Animations/Run Backward.fbx
+  artifactKey: Guid(519f389169125f84b9fc35440caa2063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Run Backward.fbx using Guid(519f389169125f84b9fc35440caa2063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e92fceb88528374868f73893fea73f') in 0.062673 seconds
+  Import took 0.068555 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Resources/DOTweenSettings.asset
-  artifactKey: Guid(80a18fd8a8dba0343b988faa9b91662b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DOTweenSettings.asset using Guid(80a18fd8a8dba0343b988faa9b91662b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412f834f7ce10dd6cb3f85601e9340b7') in 0.034614 seconds
-  Import took 0.039439 seconds .
+  Time since last request: 0.000329 seconds.
+  path: Assets/Character/Animations/Run Forward.fbx
+  artifactKey: Guid(623dc4b6fcbe0ef42acc08e477dbe646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Run Forward.fbx using Guid(623dc4b6fcbe0ef42acc08e477dbe646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99239a5a31c6000df617ae217aaacb5') in 0.013639 seconds
+  Import took 0.019290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Character/Character FBX/knight_d_pelegrini.fbx
+  artifactKey: Guid(81d06ad5f0c38924d903be8b4b680139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Character FBX/knight_d_pelegrini.fbx using Guid(81d06ad5f0c38924d903be8b4b680139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f406781423bbee8b58d5e55ce2f563d6') in 1.227655 seconds
+  Import took 1.233940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Character/Animations/Walk Left.fbx
+  artifactKey: Guid(ad8782d220faf5e4d9d16b2e62885a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Walk Left.fbx using Guid(ad8782d220faf5e4d9d16b2e62885a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccf5fbc4a956ed85506d333da241923') in 0.013558 seconds
+  Import took 0.018653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Character/Animations/Walk Forward.fbx
+  artifactKey: Guid(0373ac5e6652189478ae8e7976320ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Walk Forward.fbx using Guid(0373ac5e6652189478ae8e7976320ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10f56461b7cb26ef5658d57d6b436d2') in 0.015180 seconds
+  Import took 0.021028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(25286470d3ab58b479598f6e2e1ba38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(25286470d3ab58b479598f6e2e1ba38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9ced9302e1c538a3e7d4b3f34410b1') in 0.022882 seconds
+  Import took 0.028704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Character/Animations/Idle.fbx
+  artifactKey: Guid(b7e02e38f6444424787f030d2b05a616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Idle.fbx using Guid(b7e02e38f6444424787f030d2b05a616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc021ec84eaf9e5868c2201b9c1b003') in 0.015364 seconds
+  Import took 0.021680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Character/Materials/Knight_diffuse.mat
+  artifactKey: Guid(6c8cbb38b1b401e47be77f09ae85c6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Materials/Knight_diffuse.mat using Guid(6c8cbb38b1b401e47be77f09ae85c6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693c01242e7223bc149c4e26d483b405') in 0.156725 seconds
+  Import took 0.162136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Character/knight_d_pelegrini.fbm/Knight_normal.png
+  artifactKey: Guid(bf451afb806b39a47aff1b589010f0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/knight_d_pelegrini.fbm/Knight_normal.png using Guid(bf451afb806b39a47aff1b589010f0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e049bc8af42fc95392adc50242231235') in 0.117730 seconds
+  Import took 0.122766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Character/knight_d_pelegrini.fbm/Knight_specular.png
+  artifactKey: Guid(f3c120edf7b5bcd4693c84e6c70f9e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/knight_d_pelegrini.fbm/Knight_specular.png using Guid(f3c120edf7b5bcd4693c84e6c70f9e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a092d2fd8c0e71d71c2738b62c4ba5c') in 0.075024 seconds
+  Import took 0.080317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Character/knight_d_pelegrini.fbm/Knight_diffuse.png
+  artifactKey: Guid(2a16f12d1a7869f4d90316e1712e829d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/knight_d_pelegrini.fbm/Knight_diffuse.png using Guid(2a16f12d1a7869f4d90316e1712e829d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7657502c6415721fbb3607c9dc08b819') in 0.069255 seconds
+  Import took 0.074289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Character/Animations/Walk Right.fbx
+  artifactKey: Guid(a0e3f0c494bd2f54c9b62a80dc1200da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Walk Right.fbx using Guid(a0e3f0c494bd2f54c9b62a80dc1200da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8265a2f5c0d0f91b53f498df4f3e2f8') in 0.013532 seconds
+  Import took 0.018915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Character/Animations/Walk Backward.fbx
+  artifactKey: Guid(fe28fff836c50a346b36236cf53f6455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Walk Backward.fbx using Guid(fe28fff836c50a346b36236cf53f6455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7aaf9336e2a1f37fee9bc2662d80bc2') in 0.013830 seconds
+  Import took 0.019509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.909419 seconds.
+  path: Assets/Imported Plugins/TWD/background.png
+  artifactKey: Guid(a093780a76b8e8c4c8b121e123d21a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Plugins/TWD/background.png using Guid(a093780a76b8e8c4c8b121e123d21a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae70755de6afaf80e19db325d3e5d7df') in 0.283579 seconds
+  Import took 0.289443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.619650 seconds.
+  path: Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_50.png
+  artifactKey: Guid(a24331652574b3e479d00a8c0c41d820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_50.png using Guid(a24331652574b3e479d00a8c0c41d820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808538de3e94b5cc4d95644a9f53bd06') in 0.142453 seconds
+  Import took 0.147817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_200.png
+  artifactKey: Guid(970d574d72d68e744b59382781515142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_200.png using Guid(970d574d72d68e744b59382781515142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5fb7b3bf9d4d6cb9ddfd93594f224d') in 0.065744 seconds
+  Import took 0.070977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_50_down.png
+  artifactKey: Guid(9250aeb511890d54abc18d44c5aefcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_50_down.png using Guid(9250aeb511890d54abc18d44c5aefcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e5ac43d12131b2daebc6906decaab8') in 0.028362 seconds
+  Import took 0.033899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_100_down.png
+  artifactKey: Guid(d22f8acbaa109064f9367669c5824b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_100_down.png using Guid(d22f8acbaa109064f9367669c5824b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa2c82480333babb2820d13946288be') in 0.058465 seconds
+  Import took 0.064117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_100_hover.png
+  artifactKey: Guid(1dbaad69cbe7fa04199636488c2d68bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_100_hover.png using Guid(1dbaad69cbe7fa04199636488c2d68bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fd5122fb352dba87c915f92f3d8ec9') in 0.058619 seconds
+  Import took 0.064132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_200_inactive.png
+  artifactKey: Guid(691e40e3ae6c416488a007da9c5e389c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_200_inactive.png using Guid(691e40e3ae6c416488a007da9c5e389c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4cc0c0254a0c3d2c725030145706da') in 0.058848 seconds
+  Import took 0.064491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_100.png
+  artifactKey: Guid(de104d32a95556349875721f3a1b1e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_100.png using Guid(de104d32a95556349875721f3a1b1e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a17a742edd2d50d6779d1978875003b') in 0.028778 seconds
+  Import took 0.034445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_200_down.png
+  artifactKey: Guid(ed169c7ef182f0e44a5d758e6a61410d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_200_down.png using Guid(ed169c7ef182f0e44a5d758e6a61410d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c126e9fb33f930b5f77d26a0e4da65f1') in 0.072744 seconds
+  Import took 0.078532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_100_inactive.png
+  artifactKey: Guid(4c451a92bf2ef6c418771224768fd42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_100_inactive.png using Guid(4c451a92bf2ef6c418771224768fd42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e15ca52fedae4a01cc0d7cb0075fdac') in 0.048245 seconds
+  Import took 0.054073 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000338 seconds.
-  path: Assets/Rendering/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(ee53c972321d964439e13a7b5761b189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rendering/UniversalRenderPipelineAsset_Renderer.asset using Guid(ee53c972321d964439e13a7b5761b189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdd3436540d5de62eb5a6609597e318') in 0.008108 seconds
-  Import took 0.014066 seconds .
+  path: Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_150.png
+  artifactKey: Guid(f680687cc53f0cb43b61762b1de77fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_150.png using Guid(f680687cc53f0cb43b61762b1de77fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f36127ee24ef07f43b141ba1f6ae4d') in 0.062471 seconds
+  Import took 0.067680 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Rendering/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(a53859b7bb7e05f4a85dceef4cfd404e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rendering/UniversalRenderPipelineAsset.asset using Guid(a53859b7bb7e05f4a85dceef4cfd404e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a527b740642b4a163560de624750dd') in 0.009549 seconds
-  Import took 0.015011 seconds .
+  Time since last request: 0.000389 seconds.
+  path: Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_200_hover.png
+  artifactKey: Guid(f3a7a5cda7b04f24794559ce75cc2fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_200_hover.png using Guid(f3a7a5cda7b04f24794559ce75cc2fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d759f6c84c4f9882d68d07db5f194c') in 0.047183 seconds
+  Import took 0.052431 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.144384 seconds.
-  path: Assets/Scripts/Placed Objects/DragObject.cs
-  artifactKey: Guid(8da674717bb7a9543b35d466d9f94bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Placed Objects/DragObject.cs using Guid(8da674717bb7a9543b35d466d9f94bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf33735714f7aff69cc782cdeeac6fd') in 0.012589 seconds
-  Import took 0.018597 seconds .
+  Time since last request: 0.000399 seconds.
+  path: Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_50_hover.png
+  artifactKey: Guid(c49dec645e591114caac11d081103cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_50_hover.png using Guid(c49dec645e591114caac11d081103cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abaf7b505369fc148ca7fa25b698bf96') in 0.049412 seconds
+  Import took 0.055862 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.016159 seconds.
-  path: Assets/Scripts/Placed Objects/DragObject.cs
-  artifactKey: Guid(8da674717bb7a9543b35d466d9f94bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Placed Objects/DragObject.cs using Guid(8da674717bb7a9543b35d466d9f94bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf33735714f7aff69cc782cdeeac6fd') in 0.002563 seconds
-  Import took 0.007655 seconds .
+  Time since last request: 0.000383 seconds.
+  path: Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_150_inactive.png
+  artifactKey: Guid(6a4f3f9bc674f824e9d0b609b3f53406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_150_inactive.png using Guid(6a4f3f9bc674f824e9d0b609b3f53406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d8214a2158be11e590ad32ff23d003') in 0.057963 seconds
+  Import took 0.063922 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.781058 seconds.
-  path: Assets/Scripts/Placed Objects/DragObject.cs
-  artifactKey: Guid(8da674717bb7a9543b35d466d9f94bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Placed Objects/DragObject.cs using Guid(8da674717bb7a9543b35d466d9f94bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65020fa17b346b7a9d70e0357c03247c') in 0.003275 seconds
-  Import took 0.011043 seconds .
+  Time since last request: 0.000430 seconds.
+  path: Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_150_down.png
+  artifactKey: Guid(bc559aafa1560b9478223609bf8884e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_150_down.png using Guid(bc559aafa1560b9478223609bf8884e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a99a45ef27430235e23ae9085239509') in 0.051140 seconds
+  Import took 0.056381 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003211 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.314 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.2 MB.
-System memory in use after: 141.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3901.
-Total: 3.225100 ms (FindLiveObjects: 0.339900 ms CreateObjectMapping: 0.184400 ms MarkObjects: 2.680300 ms  DeleteObjects: 0.019400 ms)
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_50_inactive.png
+  artifactKey: Guid(90ca0b8e4e2f83a4cb7a8a6ae761bce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_50_inactive.png using Guid(90ca0b8e4e2f83a4cb7a8a6ae761bce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30deee8072a33793af686e92360bce55') in 0.036886 seconds
+  Import took 0.042223 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003249 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.866 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3327 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.7 MB.
-System memory in use after: 139.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3904.
-Total: 3.416900 ms (FindLiveObjects: 0.338100 ms CreateObjectMapping: 0.190900 ms MarkObjects: 2.863700 ms  DeleteObjects: 0.022900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.0 MB.
-System memory in use after: 74.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3904.
-Total: 3.246800 ms (FindLiveObjects: 0.316700 ms CreateObjectMapping: 0.178500 ms MarkObjects: 2.732600 ms  DeleteObjects: 0.017900 ms)
+Received Import Request.
+  Time since last request: 0.000716 seconds.
+  path: Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_150_hover.png
+  artifactKey: Guid(c183190c738936749a522264b2b7c43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Plugins/TWD/FreeButtonSet/Textures/buttons/button_150_hover.png using Guid(c183190c738936749a522264b2b7c43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb71b684e24ba3fa34da1961f061d2f') in 0.045415 seconds
+  Import took 0.051443 seconds .
 
 ========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.0 MB.
-System memory in use after: 74.3 MB.
+Received Import Request.
+  Time since last request: 18.673741 seconds.
+  path: Assets/Art/Materials/Armchair
+  artifactKey: Guid(ba71438eb991998458bc1a863d3ea6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Armchair using Guid(ba71438eb991998458bc1a863d3ea6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0cf2e17c8c8f57db147260bbc7f312') in 0.060487 seconds
+  Import took 0.066375 seconds .
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3904.
-Total: 2.800800 ms (FindLiveObjects: 0.325100 ms CreateObjectMapping: 0.168600 ms MarkObjects: 2.290400 ms  DeleteObjects: 0.015500 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 5.825852 seconds.
+  path: Assets/Art/Models/Armchair
+  artifactKey: Guid(0e25125e27f292f48a9f1e3a6002aae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Armchair using Guid(0e25125e27f292f48a9f1e3a6002aae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e1158ec536f8cecbf9fb4ae41137ac') in 0.004185 seconds
+  Import took 0.028235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.925770 seconds.
+  path: Assets/Art/UI Sprites/Sprites/Menu Icon.png
+  artifactKey: Guid(30d005c9fc8293742b6e268f6b18d228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI Sprites/Sprites/Menu Icon.png using Guid(30d005c9fc8293742b6e268f6b18d228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8872995dcd5ac6fa060a94e60250d109') in 0.077720 seconds
+  Import took 0.083848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.336799 seconds.
+  path: Assets/Art/Textures/Armchair
+  artifactKey: Guid(778e64fd99570cd4cad9c51c73838817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Armchair using Guid(778e64fd99570cd4cad9c51c73838817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0eafd784910b6c1d6b742091018155') in 0.004019 seconds
+  Import took 0.010099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.861697 seconds.
+  path: Assets/Art/Materials
+  artifactKey: Guid(c501e2b6213c3f746b389f9676e02d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials using Guid(c501e2b6213c3f746b389f9676e02d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b094a814293add827106f3f296fef306') in 0.010110 seconds
+  Import took 0.015898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.687424 seconds.
+  path: Assets/Art/Character 1/Idle Character.fbx
+  artifactKey: Guid(c753b18caf2700e48aab241d156bd802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Character 1/Idle Character.fbx using Guid(c753b18caf2700e48aab241d156bd802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3bf0fb4a16cb831c1eeb8fa8b5b288') in 0.338796 seconds
+  Import took 0.345954 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

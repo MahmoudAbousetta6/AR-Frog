@@ -12,8 +12,10 @@ public class FaceCamera : MonoBehaviour
     }
     void Update()
     {
-        Quaternion r1 = Quaternion.LookRotation(transform.position - target.position, Vector3.up);
+        transform.position = target.position;
+
+      /*  Quaternion r1 = Quaternion.LookRotation(transform.position - target.position, Vector3.up);
         Vector3 euler2 = transform.eulerAngles;
-        transform.rotation = Quaternion.Euler(euler2.x, r1.eulerAngles.y, euler2.z);
+        transform.rotation = Quaternion.Euler(euler2.x, r1.eulerAngles.y, euler2.z);*/
     }
 }
