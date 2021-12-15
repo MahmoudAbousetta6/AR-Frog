@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FaceCamera : MonoBehaviour
+public class FollowCamera : MonoBehaviour
 {
     [SerializeField] private Transform target = null;
 
